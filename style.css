@@ -4,9 +4,9 @@
 }
 
 .oll {
-    width: 1000px;
-    
-    margin: 0 100px;
+   
+   text-align: center;
+   
 }
 
 .niz {
@@ -19,18 +19,13 @@ h1 {
     margin: 30px 0 50px 0;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
-
 .element {
     border: 1px solid silver;
     border-radius: 10px;
     padding: 5px 10px;
     margin: 5px;
     display: inline-block;
-    width: 16%;
+    width: 14%;
 }
 
 .elementTitle {
@@ -39,8 +34,18 @@ img {
     margin-top: 10px;
 }
 
+@media screen and (max-width: 1000px){
+    img{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 800px){
 .element{
     width: 20%;
+    }
+img{
+    width: 60%;
+    }
 }
-}
+
