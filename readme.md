@@ -10,4 +10,4 @@
 ■ после списка продуктов должна быть подпись that’s all.
 
 <br><br>
-![Optional Text](../master/img/1.png)
+![...](../main/img/1.png)
