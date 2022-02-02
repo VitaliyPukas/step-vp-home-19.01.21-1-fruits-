@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.oll {
+    width: 1000px;
+    
+    margin: 0 100px;
+}
+
+.niz {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+img {
+    text-align: center;
+}
+
+.element {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 16%;
+}
+
+.elementTitle {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px){
+.element{
+    width: 20%;
+}
+}
